@@ -12,7 +12,10 @@ public class Country {
 	
 	private List<String> lstCities;
 	
-	
+	public Country() {
+		super();
+	}
+
 	public Country(Long id, String name, String countryCode, List<String> lstCities) {
 		super();
 		this.id = id;
