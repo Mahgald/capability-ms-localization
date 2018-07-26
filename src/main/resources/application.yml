@@ -7,7 +7,7 @@ eureka:
     hostname: localhost
 
 server:
-  port: 8001
+  port: 0
   
 info:
   name: "@project.artifactId@"

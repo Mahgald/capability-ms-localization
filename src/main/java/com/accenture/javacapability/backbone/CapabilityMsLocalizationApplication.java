@@ -7,7 +7,6 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication(scanBasePackages={"com.accenture.javacapability.backbone"})
 @EnableEurekaClient
-@EnableAutoConfiguration
 public class CapabilityMsLocalizationApplication {
 
 	public static void main(String[] args) {
